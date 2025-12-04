@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 301,
+    "nombre": "Camiseta Negra",
+    "precio": 45000,
+    "categoria": "Ropa",
+    "stock": 50,
+    "descripcion": "Camiseta algodón, talla M"
+  },
+  {
+    "_id": 302,
+    "nombre": "Cuaderno A4 100 hojas",
+    "precio": 12000,
+    "categoria": "Papelería",
+    "stock": 200,
+    "descripcion": "Cuaderno universitario 100 hojas rayadas"
+  },
+  {
+    "_id": 303,
+    "nombre": "Lápiz Grafito HB",
+    "precio": 800,
+    "categoria": "Papelería",
+    "stock": 1000,
+    "descripcion": "Lápiz HB de madera"
+  }
+]

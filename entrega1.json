@@ -1,0 +1,11 @@
+{
+    "idPersonal": 1,
+    "nombre": "David Camelo",
+    "correo": "davisC@gmail.com",
+    "direccion": {
+        "ciudad": "Madrid",
+        "barrio": "Prados de Madrid",
+        "direccion": "Calle 5B #16-45"
+    },
+    "telefono": "3193866413"
+}

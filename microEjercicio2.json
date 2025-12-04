@@ -1,0 +1,33 @@
+[{
+    "_id": 1,
+    "nombre": "Laura Pérez",
+    "correo": "laura@gmail.com",
+    "telefono": "3214567890",
+    "direccion": {
+        "ciudad": "Bogotá",
+        "barrio": "Chapinero"
+    }
+    
+},
+{
+    "_id": 2,
+    "nombre": "Andres Campos",
+    "correo": "andres@gmail.com",
+    "telefono": "3214568970",
+    "direccion": {
+        "ciudad": "Facatativá",
+        "barrio": "Centro"
+    }
+    
+},
+{
+    "_id": 3,
+    "nombre": "Juan Gomez ",
+    "correo": "juan@gmail.com",
+    "telefono": "3214563146",
+    "direccion": {
+        "ciudad": "Mosquera",
+        "barrio": "Centro"
+    }
+    
+}]

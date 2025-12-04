@@ -1,0 +1,38 @@
+[
+  {
+    "_id": 1,
+    "nombre": "Laura Pérez",
+    "correo": "laura@gmail.com",
+    "telefono": "+573001234567",
+    "direccion": {
+      "ciudad": "Bogotá",
+      "barrio": "Chapinero",
+      "direccion": "Carrera 10 #22-33"
+    },
+    "fecha_registro": "2025-01-15"
+  },
+  {
+    "_id": 2,
+    "nombre": "Carlos Ruiz",
+    "correo": "c.ruiz@mail.com",
+    "telefono": "+573112223334",
+    "direccion": {
+      "ciudad": "Medellín",
+      "barrio": "El Poblado",
+      "direccion": "Calle 10 #34-56"
+    },
+    "fecha_registro": "2025-02-05"
+  },
+  {
+    "_id": 3,
+    "nombre": "María Gómez",
+    "correo": "maria.g@example.com",
+    "telefono": "+573223334445",
+    "direccion": {
+      "ciudad": "Cali",
+      "barrio": "San Antonio",
+      "direccion": "Avenida 5 #12-34"
+    },
+    "fecha_registro": "2025-03-01"
+  }
+]

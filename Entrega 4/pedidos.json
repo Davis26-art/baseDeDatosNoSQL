@@ -1,0 +1,49 @@
+[
+  {
+    "_id": 5001,
+    "cliente_id": 1,
+    "fecha": "2025-02-10",
+    "items": [
+      {
+        "producto_id": 301,
+        "cantidad": 2,
+        "precio_unitario": 45000
+      }
+    ],
+    "total": 90000,
+    "estado": "entregado"
+  },
+  {
+    "_id": 5002,
+    "cliente_id": 2,
+    "fecha": "2025-03-12",
+    "items": [
+      {
+        "producto_id": 302,
+        "cantidad": 3,
+        "precio_unitario": 12000
+      },
+      {
+        "producto_id": 303,
+        "cantidad": 5,
+        "precio_unitario": 800
+      }
+    ],
+    "total": 40000,
+    "estado": "enviado"
+  },
+  {
+    "_id": 5003,
+    "cliente_id": 3,
+    "fecha": "2025-04-02",
+    "items": [
+      {
+        "producto_id": 303,
+        "cantidad": 10,
+        "precio_unitario": 800
+      }
+    ],
+    "total": 8000,
+    "estado": "pendiente"
+  }
+]
