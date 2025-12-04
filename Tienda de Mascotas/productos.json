@@ -1,0 +1,47 @@
+[
+  {
+    "_id": 101,
+    "nombre": "Shampoo para perros 500ml",
+    "categoria": "Higiene",
+    "precio": 25000,
+    "detalles": {
+      "marca": "PetCare",
+      "fragancia": "Lavanda"
+    },
+    "imagenes": [
+      "shampoo_petcare.jpg"
+    ],
+    "servicio_ids": [
+      "s001"
+    ]
+  },
+  {
+    "_id": 102,
+    "nombre": "Cortaúñas metálico",
+    "categoria": "Accesorios",
+    "precio": 12000,
+    "detalles": {
+      "marca": "GroomPro",
+      "material": "Acero"
+    },
+    "imagenes": [],
+    "servicio_ids": [
+      "s001",
+      "s003"
+    ]
+  },
+  {
+    "_id": 103,
+    "nombre": "Collar ajustable M",
+    "categoria": "Accesorios",
+    "precio": 18000,
+    "detalles": {
+      "color": "Azul",
+      "material": "Nylon"
+    },
+    "imagenes": [
+      "collar_azul.jpg"
+    ],
+    "servicio_ids": []
+  }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "_id": "m001",
+        "nombre": "Bobby",
+        "tipo": "Perro",
+        "raza": "Labrador",
+        "edad": 3,
+        "propietario_id": 1,
+        "vacunas": [
+            {
+                "nombre": "Rabia",
+                "fecha": "2024-06-01"
+            },
+            {
+                "nombre": "Parvovirosis",
+                "fecha": "2024-06-01"
+            }
+        ],
+        "notas": {
+            "alergias": "Ninguna",
+            "observaciones": "Muy juguetón"
+        }
+    },
+    {
+        "_id": "m002",
+        "nombre": "Misu",
+        "tipo": "Gato",
+        "raza": "Común",
+        "edad": 2,
+        "propietario_id": 2,
+        "vacunas": [
+            {
+                "nombre": "Rinotraqueitis",
+                "fecha": "2024-08-12"
+            }
+        ],
+        "notas": {
+            "alergias": "Polvo",
+            "observaciones": "Arisco con extraños"
+        }
+    },
+    {
+        "_id": "m003",
+        "nombre": "Nemo",
+        "tipo": "Pez",
+        "raza": "Clownfish",
+        "edad": 1,
+        "propietario_id": 1,
+        "vacunas": [],
+        "notas": {
+            "alergias": "",
+            "observaciones": "Requiere agua salada"
+        }
+    }
+]

@@ -1,0 +1,319 @@
+{
+    "clientes": [
+        {
+            "_id": 1,
+            "nombre": "Laura Pérez",
+            "correo": "laura.perez@mail.com",
+            "telefono": "+573001234567",
+            "direccion": {
+                "ciudad": "Bogotá",
+                "barrio": "Chapinero",
+                "direccion": "Carrera 10 #22-33"
+            },
+            "preferencias": [
+                "entrega_domicilio",
+                "promos_email"
+            ],
+            "mascotas_ids": [
+                "m001",
+                "m003"
+            ]
+        },
+        {
+            "_id": 2,
+            "nombre": "Carlos Ruiz",
+            "correo": "carlos.ruiz@mail.com",
+            "telefono": "+573112223334",
+            "direccion": {
+                "ciudad": "Medellín",
+                "barrio": "El Poblado",
+                "direccion": "Calle 10 #34-56"
+            },
+            "preferencias": [
+                "recoger_tienda"
+            ],
+            "mascotas_ids": [
+                "m002"
+            ]
+        },
+        {
+            "_id": 3,
+            "nombre": "María Gómez",
+            "correo": "maria.gomez@mail.com",
+            "telefono": "+573223334445",
+            "direccion": {
+                "ciudad": "Cali",
+                "barrio": "San Antonio",
+                "direccion": "Avenida 5 #12-34"
+            },
+            "preferencias": [],
+            "mascotas_ids": []
+        }
+    ],
+    "productos": [
+        {
+            "_id": 101,
+            "nombre": "Shampoo para perros 500ml",
+            "categoria": "Higiene",
+            "precio": 25000,
+            "detalles": {
+                "marca": "PetCare",
+                "fragancia": "Lavanda"
+            },
+            "imagenes": [
+                "shampoo_petcare.jpg"
+            ],
+            "servicio_ids": [
+                "s001"
+            ]
+        },
+        {
+            "_id": 102,
+            "nombre": "Cortaúñas metálico",
+            "categoria": "Accesorios",
+            "precio": 12000,
+            "detalles": {
+                "marca": "GroomPro",
+                "material": "Acero"
+            },
+            "imagenes": [],
+            "servicio_ids": [
+                "s001",
+                "s003"
+            ]
+        },
+        {
+            "_id": 103,
+            "nombre": "Collar ajustable M",
+            "categoria": "Accesorios",
+            "precio": 18000,
+            "detalles": {
+                "color": "Azul",
+                "material": "Nylon"
+            },
+            "imagenes": [
+                "collar_azul.jpg"
+            ],
+            "servicio_ids": []
+        }
+    ],
+    "pedidos": [
+        {
+            "_id": 2001,
+            "cliente_id": 1,
+            "mascota_id": "m001",
+            "fecha": "2025-06-01",
+            "items": [
+                {
+                    "producto_id": 101,
+                    "cantidad": 1,
+                    "precio_unitario": 25000
+                }
+            ],
+            "total": 25000,
+            "estado": "entregado",
+            "envio": {
+                "tipo": "domicilio",
+                "costo": 5000
+            }
+        },
+        {
+            "_id": 2002,
+            "cliente_id": 2,
+            "mascota_id": "m002",
+            "fecha": "2025-06-05",
+            "items": [
+                {
+                    "producto_id": 102,
+                    "cantidad": 2,
+                    "precio_unitario": 12000
+                },
+                {
+                    "producto_id": 103,
+                    "cantidad": 1,
+                    "precio_unitario": 18000
+                }
+            ],
+            "total": 42000,
+            "estado": "enviado",
+            "envio": {
+                "tipo": "recoger_tienda",
+                "costo": 0
+            }
+        },
+        {
+            "_id": 2003,
+            "cliente_id": 3,
+            "mascota_id": "m003",
+            "fecha": "2025-06-10",
+            "items": [
+                {
+                    "producto_id": 103,
+                    "cantidad": 3,
+                    "precio_unitario": 18000
+                }
+            ],
+            "total": 54000,
+            "estado": "pendiente",
+            "envio": {
+                "tipo": "domicilio",
+                "costo": 7000
+            }
+        }
+    ],
+    "mascotas": [
+        {
+            "_id": "m001",
+            "nombre": "Bobby",
+            "tipo": "Perro",
+            "raza": "Labrador",
+            "edad": 3,
+            "propietario_id": 1,
+            "vacunas": [
+                {
+                    "nombre": "Rabia",
+                    "fecha": "2024-06-01"
+                },
+                {
+                    "nombre": "Parvovirosis",
+                    "fecha": "2024-06-01"
+                }
+            ],
+            "notas": {
+                "alergias": "Ninguna",
+                "observaciones": "Muy juguetón"
+            }
+        },
+        {
+            "_id": "m002",
+            "nombre": "Misu",
+            "tipo": "Gato",
+            "raza": "Común",
+            "edad": 2,
+            "propietario_id": 2,
+            "vacunas": [
+                {
+                    "nombre": "Rinotraqueitis",
+                    "fecha": "2024-08-12"
+                }
+            ],
+            "notas": {
+                "alergias": "Polvo",
+                "observaciones": "Arisco con extraños"
+            }
+        },
+        {
+            "_id": "m003",
+            "nombre": "Nemo",
+            "tipo": "Pez",
+            "raza": "Clownfish",
+            "edad": 1,
+            "propietario_id": 1,
+            "vacunas": [],
+            "notas": {
+                "alergias": "",
+                "observaciones": "Requiere agua salada"
+            }
+        }
+    ],
+    "servicios": [
+        {
+            "_id": "s001",
+            "nombre": "Baño y corte básico",
+            "duracion_min": 60,
+            "precio": 45000,
+            "detalles": {
+                "sala": "A",
+                "requiere_reserva": true
+            },
+            "incluye": [
+                "Baño",
+                "Secado",
+                "Cepillado"
+            ],
+            "insumos_producto_ids": [
+                101,
+                102
+            ]
+        },
+        {
+            "_id": "s002",
+            "nombre": "Vacunación",
+            "duracion_min": 20,
+            "precio": 80000,
+            "detalles": {
+                "veterinario": "Dr. Gómez",
+                "tipo": "vacuna_unica"
+            },
+            "incluye": [
+                "Consulta",
+                "Vacuna",
+                "Registro"
+            ],
+            "insumos_producto_ids": []
+        },
+        {
+            "_id": "s003",
+            "nombre": "Consulta veterinaria",
+            "duracion_min": 30,
+            "precio": 60000,
+            "detalles": {
+                "veterinario": "Dra. Ruiz",
+                "equipamiento": "consulta_general"
+            },
+            "incluye": [
+                "Examen físico",
+                "Receta opcional"
+            ],
+            "insumos_producto_ids": [
+                102
+            ]
+        }
+    ],
+    "citas": [
+        {
+            "_id": "c1001",
+            "cliente_id": 1,
+            "mascota_id": "m001",
+            "servicio_id": "s001",
+            "fecha_hora": "2025-06-15T09:00:00",
+            "estado": "confirmada",
+            "detalles": {
+                "encargado": "Juan",
+                "duracion_estimada_min": 60
+            },
+            "notas_previas": [
+                "Pelo muy enredado",
+                "Traer toalla extra"
+            ]
+        },
+        {
+            "_id": "c1002",
+            "cliente_id": 2,
+            "mascota_id": "m002",
+            "servicio_id": "s002",
+            "fecha_hora": "2025-06-16T11:30:00",
+            "estado": "pendiente",
+            "detalles": {
+                "encargado": "Ana",
+                "recomendacion": "ayuno 4 horas"
+            },
+            "notas_previas": []
+        },
+        {
+            "_id": "c1003",
+            "cliente_id": 1,
+            "mascota_id": "m001",
+            "servicio_id": "s003",
+            "fecha_hora": "2025-06-20T14:00:00",
+            "estado": "cancelada",
+            "detalles": {
+                "encargado": "Carlos",
+                "motivo_cancelacion": "cliente no asistió"
+            },
+            "notas_previas": [
+                "Reprogramar si cliente solicita"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+[
+    {
+        "_id": "s001",
+        "nombre": "Baño y corte básico",
+        "duracion_min": 60,
+        "precio": 45000,
+        "detalles": {
+            "sala": "A",
+            "requiere_reserva": true
+        },
+        "incluye": [
+            "Baño",
+            "Secado",
+            "Cepillado"
+        ],
+        "insumos_producto_ids": [
+            101,
+            102
+        ]
+    },
+    {
+        "_id": "s002",
+        "nombre": "Vacunación",
+        "duracion_min": 20,
+        "precio": 80000,
+        "detalles": {
+            "veterinario": "Dr. Gómez",
+            "tipo": "vacuna_unica"
+        },
+        "incluye": [
+            "Consulta",
+            "Vacuna",
+            "Registro"
+        ],
+        "insumos_producto_ids": []
+    },
+    {
+        "_id": "s003",
+        "nombre": "Consulta veterinaria",
+        "duracion_min": 30,
+        "precio": 60000,
+        "detalles": {
+            "veterinario": "Dra. Ruiz",
+            "equipamiento": "consulta_general"
+        },
+        "incluye": [
+            "Examen físico",
+            "Receta opcional"
+        ],
+        "insumos_producto_ids": [
+            102
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "_id": 2001,
+    "cliente_id": 1,
+    "mascota_id": "m001",
+    "fecha": "2025-06-01",
+    "items": [
+      {
+        "producto_id": 101,
+        "cantidad": 1,
+        "precio_unitario": 25000
+      }
+    ],
+    "total": 25000,
+    "estado": "entregado",
+    "envio": {
+      "tipo": "domicilio",
+      "costo": 5000
+    }
+  },
+  {
+    "_id": 2002,
+    "cliente_id": 2,
+    "mascota_id": "m002",
+    "fecha": "2025-06-05",
+    "items": [
+      {
+        "producto_id": 102,
+        "cantidad": 2,
+        "precio_unitario": 12000
+      },
+      {
+        "producto_id": 103,
+        "cantidad": 1,
+        "precio_unitario": 18000
+      }
+    ],
+    "total": 42000,
+    "estado": "enviado",
+    "envio": {
+      "tipo": "recoger_tienda",
+      "costo": 0
+    }
+  },
+  {
+    "_id": 2003,
+    "cliente_id": 3,
+    "mascota_id": "m003",
+    "fecha": "2025-06-10",
+    "items": [
+      {
+        "producto_id": 103,
+        "cantidad": 3,
+        "precio_unitario": 18000
+      }
+    ],
+    "total": 54000,
+    "estado": "pendiente",
+    "envio": {
+      "tipo": "domicilio",
+      "costo": 7000
+    }
+  }
+]

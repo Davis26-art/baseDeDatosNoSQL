@@ -1,0 +1,51 @@
+[
+  {
+    "_id": 1,
+    "nombre": "Laura Pérez",
+    "correo": "laura.perez@mail.com",
+    "telefono": "+573001234567",
+    "direccion": {
+      "ciudad": "Bogotá",
+      "barrio": "Chapinero",
+      "direccion": "Carrera 10 #22-33"
+    },
+    "preferencias": [
+      "entrega_domicilio",
+      "promos_email"
+    ],
+    "mascotas_ids": [
+      "m001",
+      "m003"
+    ]
+  },
+  {
+    "_id": 2,
+    "nombre": "Carlos Ruiz",
+    "correo": "carlos.ruiz@mail.com",
+    "telefono": "+573112223334",
+    "direccion": {
+      "ciudad": "Medellín",
+      "barrio": "El Poblado",
+      "direccion": "Calle 10 #34-56"
+    },
+    "preferencias": [
+      "recoger_tienda"
+    ],
+    "mascotas_ids": [
+      "m002"
+    ]
+  },
+  {
+    "_id": 3,
+    "nombre": "María Gómez",
+    "correo": "maria.gomez@mail.com",
+    "telefono": "+573223334445",
+    "direccion": {
+      "ciudad": "Cali",
+      "barrio": "San Antonio",
+      "direccion": "Avenida 5 #12-34"
+    },
+    "preferencias": [],
+    "mascotas_ids": []
+  }
+]
